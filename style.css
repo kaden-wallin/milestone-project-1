@@ -1,11 +1,4 @@
 /* Hub CSS */
-#background {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-}
-
 div {
     width: 20%;
     height: 25%;
@@ -14,12 +7,21 @@ div {
     border-radius: 2%;
 }
 
+header {
+    width: 100%;
+    background-color: rgb(200, 150, 102);
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+
 #regShowQuiz {
     background-color: rgb(109, 109, 248);
+    padding: 7em 10em;
 }
 
 #howIMetQuiz {
     background-color: rgb(171, 164, 68);
+    padding: 7em 10em;
 }
 
 #futuramaQuiz {
@@ -35,16 +37,15 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    background-color: rgb(241, 236, 198);
 }
 
-a:link, a:visited {
-    text-decoration: none;
-    color: white;
-    font-size: 35px;
+#linkImg1 {
+    height: 150px;
 }
 
-a:hover {
-    opacity: 0.75;
+#linkImg2 {
+    height: 50px;
 }
 
 #quizBackground {
@@ -55,6 +56,10 @@ a:hover {
     z-index: -1;
 
 }
+
+.linkImgs {
+}
+
 #quizDiv {
     margin-top: 10em;
     padding: 10em;
