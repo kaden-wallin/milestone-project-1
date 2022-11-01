@@ -3,7 +3,7 @@ div {
     width: 20%;
     height: 25%;
     padding: 10em;
-    margin: 3em;
+    margin: 2em;
     border-radius: 2%;
 }
 
@@ -15,21 +15,15 @@ header {
 }
 
 #regShowQuiz {
-    background-color: rgb(109, 109, 248);
     padding: 7em 10em;
 }
 
 #howIMetQuiz {
-    background-color: rgb(171, 164, 68);
     padding: 7em 10em;
 }
 
-#futuramaQuiz {
-    background-color: rgb(220, 66, 66);
-}
-
 #communityQuiz {
-    background-color: rgb(73, 135, 73);
+    padding: 10em 12em 10em 8em;
 }
 
 body {
@@ -40,43 +34,57 @@ body {
     background-color: rgb(241, 236, 198);
 }
 
-#linkImg1 {
+#linkImg1, #linkImg2 {
     height: 150px;
 }
 
-#linkImg2 {
+#linkImg3, #linkImgs4 {
     height: 50px;
 }
 
 #quizBackground {
-    background-color: rgb(109, 109, 248);
     width: 100%;
-    height: 180%;
+    height: 220%;
     position: absolute;
     z-index: -1;
 
 }
 
-.linkImgs {
+a:hover {
+    opacity: 0.75;
 }
 
 #quizDiv {
-    margin-top: 10em;
-    padding: 10em;
+    margin-top: 5em;
+    padding: 1em;
     background-color: white;
     border-radius: 2%;
-    font-size: 25px;
+    font-size: 40px;
+}
+
+button {
+    font-size: larger;
+    margin: 1em;
 }
 /*Regular Show Quiz*/
+#regShowTitle, #regShowQuiz {
+    background-color: rgb(109, 109, 248);
+}
 
 /*How I Met Your Mother Quiz*/
-
+#howIMetTitle, #howIMetQuiz {
+    background-color: rgb(171, 164, 68);
+}
 
 /*Futurama Quiz*/
-
+#futuramaTitle, #futuramaQuiz {
+    background-color: rgb(220, 66, 66);
+}
 
 /*Community Quiz*/
-
+#communityTitle, #communityQuiz {
+    background-color: rgb(73, 135, 73);
+}
 
 /*set-up the quiz boxes and where the score is shown*/
 
