@@ -26,12 +26,22 @@ header {
     padding: 10em 12em 10em 8em;
 }
 
-body {
+Body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     background-color: rgb(241, 236, 198);
+}
+
+.resultHtml {
+    background-color: rgb(225, 161, 161);
+}
+
+#resultH1 {
+    font-size: 100px;
+    padding: 1em;
+    color: white;
 }
 
 #linkImg1, #linkImg2 {
@@ -62,10 +72,6 @@ a:hover {
     font-size: 40px;
 }
 
-button {
-    font-size: larger;
-    margin: 1em;
-}
 /*Regular Show Quiz*/
 #regShowQuiz {
     background-color: rgb(109, 109, 248);

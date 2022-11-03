@@ -4,7 +4,7 @@
 
 //Create logic for talling scores
 function results(quiz) {
-    var score=0;
+    let score=0;
     if (document.getElementById(quiz + 1).checked) {
         score++;
     }
