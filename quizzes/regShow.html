@@ -14,95 +14,39 @@
         <main id="regShowTitle">
             <h1>Regular Show Trivia Quiz</h1>
         </main>
+        
+        <b>Q.1 Who do Rigby and Mordecai fight to win Broken Bones world record?</b><br>
+        <input type="radio" name="regQuestion1">Skater kids<br>
+        <input type="radio" name="regQuestion1">Unicorn bros<br>
+        <input type="radio" name="regQuestion1">Eileen<br>
+        <input type="radio" name="regQuestion1" id="reg1">Garret bobby ferguson<br>
+        
+        <b>Q.2 Who does Mordecai kiss on new years?</b><br>
+        <input type="radio" name="regQuestion2">Margret<br>
+        <input type="radio" name="regQuestion2">Tracy<br>
+        <input type="radio" name="regQuestion2" id="reg2">CJ<br>
+        <input type="radio" name="regQuestion2">Eileen<br>
+        
+        <b>Q.3 What are the guys trying to win in The Night Owl?</b><br>
+        <input type="radio" name="regQuestion3" id="reg3">Muscle car<br>
+        <input type="radio" name="regQuestion3">Year supply of cakes<br>
+        <input type="radio" name="regQuestion3">Cheezers line card<br>
+        <input type="radio" name="regQuestion3">Muscle man's trailer<br>
+       
+        <b>Q.4 Who wears the AI suit?</b><br>
+        <input type="radio" name="regQuestion4">Mordecai<br>
+        <input type="radio" name="regQuestion4">Rigby<br>
+        <input type="radio" name="regQuestion4" id="reg4">Benson<br>
+        <input type="radio" name="regQuestion4">None of the above<br>
+        
+        <b>Q.5 Who dropped out of college?</b><br>
+        <input type="radio" name="regQuestion5" id="reg5">Mordecai<br>
+        <input type="radio" name="regQuestion5">Rigby<br>
+        <input type="radio" name="regQuestion5">Muscle man<br>
+        <input type="radio" name="regQuestion5">Skips<br>
 
-        <b>Who do Rigby and Mordecai fight to win Broken Bones world record?</b>
-        <form action="">
-            <input type="radio" name="radAnswer1" value=false>
-            <label for="option-one">Skater kids</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer1" value=false>
-            <label for="option-two">Unicorn bros</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer1" value=false>
-            <label for="option-three">Eileen</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer1" value=true>
-            <label for="option-four">Garret bobby ferguson</label>
-        </form>
-        <b>Who does Mordecai kiss on new years?</b>
-        <form action="">
-            <input type="radio" name="radAnswer2" value=false>
-            <label for="option-one">Margret</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer2" value=false>
-            <label for="option-two">Tracy</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer2" value=true>
-            <label for="option-three">CJ</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer2" value=false>
-            <label for="option-four">Eileen</label>
-        </form>
-        <b>What are the guys trying to win in The Night Owl?</b>
-        <form action="">
-            <input type="radio" name="radAnswer3" value=true>
-            <label for="option-one">Muscle Car</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer3" value=false>
-            <label for="option-two">Year supply of cakes</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer3" value=false>
-            <label for="option-three">Cheezers line card</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer3" value=false>
-            <label for="option-four">Muscle man's trailer</label>
-        </form>
-        <b>Who wears the AI suit?</b>
-        <form action="">
-            <input type="radio" name="radAnswer4" value=false>
-            <label for="option-one">Mordecai</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer4" value=false>
-            <label for="option-two">Rigby</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer4" value=true>
-            <label for="option-three">Benson</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer4" value=false>
-            <label for="option-four">None of the above</label>
-        </form>
-        <b>Who dropped out of college?</b>
-        <form action="">
-            <input type="radio" name="radAnswer5" value=true>
-            <label for="option-one">Mordecai</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer5" value=false>
-            <label for="option-two">Rigby</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer5" value=false>
-            <label for="option-three">Muscle man</label>
-        </form>
-        <form action="">
-            <input type="radio" name="radAnswer5" value=false>
-            <label for="option-four">Skips</label>
-        </form>
-
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <input type="submit" name="submit" value="Submit Quiz" onclick="results('reg')">
+        <input type="button" name="return" value="Return to Hub" onclick="returnToHub()">
     </aside>
     <!-- Once on quiz pages making a set of questions with radial checkbox answers -->
 

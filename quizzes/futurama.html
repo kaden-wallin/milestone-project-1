@@ -14,94 +14,38 @@
             <h1>Futurama Trivia Quiz</h1>
         </main>
 
-        <b>What is Fry's first name?</b>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Terrance</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Robert</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Philip</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Quincy</label>
-        </form>
-        <b>What word does Nixxon set as Bender's detonation word?</b>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Chump</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Meatbag</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Ass</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Shut-up</label>
-        </form>
-        <b>Where is Amy from?</b>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">The sewers</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Kansas</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">New New york, New york</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Mars</label>
-        </form>
-        <b>What episode does Fry try to bring back his dog?</b>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Jurassic Bark</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Dog Days</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Clone Dog 3000</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Seymour See Less</label>
-        </form>
-        <b>Who is the famous pilot of the Nimbus?</b>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Calculon</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Lurrr</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Zapp Brannigan</label>
-        </form>
-        <form action="">
-            <input type="radio" id="option-1" value="1">
-            <label for="option-one">Leela</label>
-        </form>
+        <b>Q.1 Before he was a chauffeur, what did Ranjit do?</b><br>
+        <input type="radio" name="howIMetQuestion1">Pilot<br>
+        <input type="radio" name="howIMetQuestion1">Bartender<br>
+        <input type="radio" name="howIMetQuestion1" id="howIMet1">Taxi driver<br>
+        <input type="radio" name="howIMetQuestion1">Janitor<br>
+        
+        <b>Q.2 </b><br>
+        <input type="radio" name="howIMetQuestion2"><br>
+        <input type="radio" name="howIMetQuestion2"><br>
+        <input type="radio" name="howIMetQuestion2" id="howIMet2"><br>
+        <input type="radio" name="howIMetQuestion2"><br>
+        
+        <b>Q.3 </b><br>
+        <input type="radio" name="howIMetQuestion3" id="howIMet3"><br>
+        <input type="radio" name="howIMetQuestion3"><br>
+        <input type="radio" name="howIMetQuestion3"><br>
+        <input type="radio" name="howIMetQuestion3"><br>
+       
+        <b>Q.4 </b><br>
+        <input type="radio" name="howIMetQuestion4"><br>
+        <input type="radio" name="howIMetQuestion4"><br>
+        <input type="radio" name="howIMetQuestion4" id="howIMet4"><br>
+        <input type="radio" name="howIMetQuestion4"><br>
+        
+        <b>Q.5 </b><br>
+        <input type="radio" name="howIMetQuestion5" id="howIMet5"><br>
+        <input type="radio" name="howIMetQuestion5"><br>
+        <input type="radio" name="howIMetQuestion5"><br>
+        <input type="radio" name="howIMetQuestion5"><br>
 
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <input type="submit" name="submit" value="Submit Quiz" onclick="results('reg')">
+        <input type="button" name="return" value="Return to Hub" onclick="returnToHub()">
     </aside><!-- Adding each div with unique id and link to the quiz pages -->
     
     <!-- Once on quiz pages making a set of questions with radial checkbox answers -->

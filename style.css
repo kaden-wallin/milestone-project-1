@@ -67,25 +67,36 @@ button {
     margin: 1em;
 }
 /*Regular Show Quiz*/
-#regShowTitle, #regShowQuiz {
+#regShowQuiz {
     background-color: rgb(109, 109, 248);
+    
 }
-
+#regShowTitle {
+    color: rgb(109, 109, 248);
+}
 /*How I Met Your Mother Quiz*/
-#howIMetTitle, #howIMetQuiz {
+#howIMetQuiz {
     background-color: rgb(171, 164, 68);
-}
 
+}
+#howIMetTitle {
+    color: rgb(171, 164, 68);
+}
 /*Futurama Quiz*/
-#futuramaTitle, #futuramaQuiz {
+#futuramaQuiz {
     background-color: rgb(220, 66, 66);
+    
 }
-
+#futuramaTitle {
+    color: rgb(220, 66, 66);
+}
 /*Community Quiz*/
-#communityTitle, #communityQuiz {
+#communityQuiz {
     background-color: rgb(73, 135, 73);
 }
-
+#communityTitle {
+    color: rgb(73, 135, 73);
+}
 /*set-up the quiz boxes and where the score is shown*/
 
 /*set-up how the messages will show up i.e what size and color, font*/

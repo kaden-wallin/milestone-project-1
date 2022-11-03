@@ -3,18 +3,29 @@
 //Set up music to play onload of quiz tabs
 
 //Create logic for talling scores
-let score=0;
-function check(id) {
-    var question = document.getElementById(id);
-    for (var i = 0; i < question.length; i++) {
-         if (question[i].checked == true) {
-             score +=1;
-             console.log(score)
-            }
-   }
+function results(quiz) {
+    var score=0;
+    if (document.getElementById(quiz + 1).checked) {
+        score++;
+    }
+    if (document.getElementById(quiz + 2).checked) {
+        score++;
+    }
+    if (document.getElementById(quiz + 3).checked) {
+        score++;
+    }
+    if (document.getElementById(quiz + 4).checked) {
+        score++;
+    }
+    if (document.getElementById(quiz + 5).checked) {
+        score++;
+    }
+    alert("Your score is: " +score + ", Thank you for playing!")
 }
 
-
+function returnToHub() {
+    window.location.href = "../hub.html"
+}
 //Set up different messages linked to what score (likely will be a case statement)
 
 //Create links at bottom to get you to the top and/or get you to the hub and on the top to get you to the hub
