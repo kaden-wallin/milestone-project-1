@@ -76,7 +76,7 @@ a:hover {
 }
 
 /*Regular Show Quiz*/
-#regShowQuiz {
+#regShowQuiz, #regShowResultHtml {
     background-color: rgb(109, 109, 248);
     
 }
@@ -84,7 +84,7 @@ a:hover {
     color: rgb(109, 109, 248);
 }
 /*How I Met Your Mother Quiz*/
-#howIMetQuiz {
+#howIMetQuiz, #howIMetResultHtml {
     background-color: rgb(171, 164, 68);
 
 }
@@ -92,7 +92,7 @@ a:hover {
     color: rgb(171, 164, 68);
 }
 /*Futurama Quiz*/
-#futuramaQuiz {
+#futuramaQuiz, #futuramaResultHtml {
     background-color: rgb(220, 66, 66);
     
 }
@@ -100,7 +100,7 @@ a:hover {
     color: rgb(220, 66, 66);
 }
 /*Community Quiz*/
-#communityQuiz {
+#communityQuiz, #communityResultHtml {
     background-color: rgb(73, 135, 73);
 }
 #communityTitle {
