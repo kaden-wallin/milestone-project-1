@@ -1,6 +1,5 @@
 
-//Create logic for talling scores
-
+//Logic for talling score and opening results page
 function results(quiz) {
     let score= 0;
     if (document.getElementById(quiz + 1).checked) {
@@ -26,28 +25,13 @@ function results(quiz) {
 
 }
 
-
+//Logic to show score on results page
 function resultsPage() {
     document.getElementById('whereToPutScore').innerHTML = localStorage.getItem("score");
 
 }
 
-// resultsPage()
-
-// let message = "Your score is: "  +score + ", Thank you for playing!";
-
-// let resultmessage = document.getElementById("resultH1")
-
-// resultmessage.innerHTML = message;
-
-// `Your score is ${score}, Thank you for playing!`;
-// document.write("Your score is: "  +score + ", Thank you for playing!")
-
-
-
 //Created a button on bottom of results page to let you retry the quiz and one to return you to hub
-const resultsMessage = document.getElementsByClassName('resultMessage');
-
 function returnToHub() {
     window.location.href = "../hub.html"
 }

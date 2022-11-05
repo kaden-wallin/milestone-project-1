@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="../style.css">
     <script src="../script.js"></script>
 </head>
+<!--Onload function to put the score in the span tag-->
 <body class="resultHtml" id="howIMetResultHtml" onload="resultsPage()">
     <h1 id="resultH1">Your score is: <span id="whereToPutScore"></span>/5, Thank you for playing!</h1>
     <br>
+    <!--Buttons to return to hub or retry the quiz-->
     <input type="button" class="resultsScreenButton" name="return" value="Return to Hub" onclick="returnToHub()">
     <input type="button" class="resultsScreenButton" name="retry" value="Retry Quiz" onclick="retryQuiz('howIMet')">
 </body>
