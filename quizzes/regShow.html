@@ -8,17 +8,18 @@
     <script src="../script.js"></script>
 </head>
 <body id="regShowBody">
+    <!--Background image-->
     <img id="quizBackground" src="../assets/regularshow.jpg" alt="Mordecai and Rigby pointing at you and the words Regular Show above">
-    
+    <!--Theme song that automatically plays when you start the quiz-->
     <audio autoplay>
         <source src="../assets/Regular Show - Credits.mp3" type="audio/mp3">
     </audio>
-
+    <!--Color coded title to tell you which quiz it is-->
     <aside id="quizDiv">
         <main id="regShowTitle">
             <h1>Regular Show Trivia Quiz</h1>
         </main>
-        
+        <!--The actual quiz itself-->
         <b>Q.1 Who do Rigby and Mordecai fight to win Broken Bones world record?</b><br>
         <input type="radio" name="regQuestion1">Skater kids<br>
         <input type="radio" name="regQuestion1">Unicorn bros<br>
@@ -52,12 +53,4 @@
         <input type="submit" name="submit" value="Submit Quiz" onclick="results('reg')">
         <input type="button" name="return" value="Return to Hub" onclick="returnToHub()">
     </aside>
-    <!-- Once on quiz pages making a set of questions with radial checkbox answers -->
-
-    </button>
-    <!-- adding submit button to submit answers -->
-    
-    <!-- adding return to hub button -->
-    
-    <!-- adding return to hub button in score message screen -->
 </body>

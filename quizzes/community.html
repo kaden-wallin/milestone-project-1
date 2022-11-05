@@ -8,17 +8,18 @@
     <script src="../script.js"></script>
 </head>
 <body>
+    <!--Background image-->
     <img id="quizBackground" src="../assets/community.jpg" alt="The Community poster">
-    
+    <!--Theme song that automatically plays when you start the quiz-->
     <audio autoplay>
         <source src="../assets/Community - 30 seconds.mp3" type="audio/mp3">
     </audio>
-    
+    <!--Color coded title to tell you which quiz it is-->
     <aside id="quizDiv">
         <main id="communityTitle">
             <h1>Community Trivia Quiz</h1>
         </main>
-        
+        <!--The actual quiz itself-->
         <b>Q.1 Who replaces Pierce in season 5</b><br>
         <input type="radio" name="communityQuestion1">Elroy Patashnik<br>
         <input type="radio" name="communityQuestion1">Chang<br>
@@ -51,13 +52,5 @@
 
         <input type="submit" name="submit" value="Submit Quiz" onclick="results('community')">
         <input type="button" name="return" value="Return to Hub" onclick="returnToHub()">
-    </aside><!-- Adding each div with unique id and link to the quiz pages -->
-    
-    <!-- Once on quiz pages making a set of questions with radial checkbox answers -->
-    
-    <!-- adding submit button to submit answers -->
-    
-    <!-- adding return to hub button -->
-    
-    <!-- adding return to hub button in score message screen -->
+    </aside>
 </body>

@@ -1,5 +1,6 @@
-const resultsContainer = document.getElementsByClassName('resultsMessage')
+
 //Create logic for talling scores
+
 function results(quiz) {
     let score= 0;
     if (document.getElementById(quiz + 1).checked) {
@@ -18,19 +19,35 @@ function results(quiz) {
         score++;
     }
 
-    window.location.href = "../results/" + quiz + "Results.html";
-    
-    let message = "Your score is: "  +score + ", Thank you for playing!";
-    
-    let resultmessage = document.getElementById("resultH1")
-    
-    resultmessage.innerHTML = message;
-    
-    resultsContainer.innerHTML = `Your score is ${score}, Thank you for playing!`;
-}
-//Set up different messages linked to what score (likely will be a case statement)
+    localStorage.setItem("score", score)
 
-//Create links at bottom to get you to the top and/or get you to the hub and on the top to get you to the hub
+    window.location.href = "../results/" + quiz + "Results.html";
+
+
+}
+
+
+function resultsPage() {
+    document.getElementById('whereToPutScore').innerHTML = localStorage.getItem("score");
+
+}
+
+// resultsPage()
+
+// let message = "Your score is: "  +score + ", Thank you for playing!";
+
+// let resultmessage = document.getElementById("resultH1")
+
+// resultmessage.innerHTML = message;
+
+// `Your score is ${score}, Thank you for playing!`;
+// document.write("Your score is: "  +score + ", Thank you for playing!")
+
+
+
+//Created a button on bottom of results page to let you retry the quiz and one to return you to hub
+const resultsMessage = document.getElementsByClassName('resultMessage');
+
 function returnToHub() {
     window.location.href = "../hub.html"
 }

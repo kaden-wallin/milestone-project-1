@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="../style.css">
     <script src="../script.js"></script>
 </head>
-<body class="resultHtml" id="communityResultHtml">
-    <h1 id="resultH1"></h1>
+<body class="resultHtml" id="communityResultHtml" onload="resultsPage()">
+    <h1 id="resultH1">Your score is: <span id="whereToPutScore"></span>/5, Thank you for playing!</h1>
     <br>
-    <!-- Your score is: <p id="quizResult"></p> Thank you for playing!-->
     <input type="button" class="resultsScreenButton" name="return" value="Return to Hub" onclick="returnToHub()">
     <input type="button" class="resultsScreenButton" name="retry" value="Retry Quiz" onclick="retryQuiz('community')">
 </body>
