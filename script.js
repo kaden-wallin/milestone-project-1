@@ -33,7 +33,7 @@ function resultsPage() {
 
 //Created a button on bottom of results page to let you retry the quiz and one to return you to hub
 function returnToHub() {
-    window.location.href = "../hub.html"
+    window.location.href = "../index.html"
 }
 
 function retryQuiz(quiz) {
