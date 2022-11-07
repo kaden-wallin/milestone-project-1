@@ -34,15 +34,11 @@ Body {
 #linkImg3, #linkImgs4 {
     height: 50px;
 }
-#quizBackground {
-    width: 100%;
-    height: 220%;
-    position: absolute;
-    z-index: -1;
-}
+
 a:hover {
     opacity: 0.75;
 }
+/*Quiz page CSS*/
 #quizDiv {
     margin-top: 5em;
     padding: 1em;
@@ -50,7 +46,12 @@ a:hover {
     border-radius: 2%;
     font-size: 40px;
 }
-
+#quizBackground {
+    width: 100%;
+    height: 220%;
+    position: absolute;
+    z-index: -1;
+}
 /*Regular Show Quiz*/
 #regShowQuiz, #regShowResultHtml {
     background-color: rgb(109, 109, 248);
