@@ -1,0 +1,116 @@
+//scss variables
+
+    //hub variables
+    $hub-bg-color: rgb(241, 236, 198);
+    $hub-banner-color: rgb(200, 150, 102);
+
+
+    //quiz colors
+    $white: rgb(255, 255, 255);
+    $regShow: rgb(109, 109, 248);
+    $howIMet: rgb(171, 164, 68);
+    $futurama: rgb(220, 66, 66);
+    $community: rgb(73, 135, 73);
+
+//scss styling
+
+    //hub styling
+    div {
+        width: 20%;
+        height: 25%;
+        padding: 10em;
+        margin: 2em;
+        border-radius: 2%;
+    }
+
+    header {
+        width: 100%;
+        background-color: $hub-banner-color;
+        color: $white;
+        font-size: 70px;
+    }
+
+    #regShowQuiz, #howIMetQuiz {
+        padding: 7em 10em;
+    }
+
+    #communityQuiz {
+        padding: 10em 12em 9.5em 8em;
+    }
+
+    Body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        background-color: $hub-bg-color;
+    }
+
+    .linkImg1 {
+        height: 120px; width: auto;
+    }
+    
+    .linkImg2 {
+        height: 45px;
+    }
+
+    a:hover {
+        opacity: 0.75;
+    }
+
+    //quiz styling
+
+    #quizDiv {
+        margin-top: 5em;
+        padding: 1em;
+        background-color: $white;
+        border-radius: 2%;
+        font-size: 40px;
+    }
+
+    #quizBackground {
+        width: 100%;
+        height: 220%;
+        position: absolute;
+        z-index: -1;
+    }
+
+    $quiz-names: regShow, howIMet, futurama, community;
+
+    @each $quiz in $quiz-names {
+        $quiz-color: null;
+        @if $quiz == 'regShow' {
+          $quiz-color: $regShow;
+        } @else if $quiz == 'howIMet' {
+          $quiz-color: $howIMet;
+        } @else if $quiz == 'futurama' {
+          $quiz-color: $futurama;
+        } @else if $quiz == 'community' {
+          $quiz-color: $community;
+        }
+        
+        ##{$quiz}Quiz, ##{$quiz}ResultHtml {
+          background-color: $quiz-color;
+        }
+        ##{$quiz}Title {
+          color: $quiz-color;
+        }
+      }
+
+    //results styling
+
+    .resultsScreenButton {
+        width: 20%;
+        font-size: 50px;
+        margin: 20px;
+    }
+    .resultHtml {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #resultH1 {
+        font-size: 100px;
+        padding: 1em;
+        color: $white;
+    }
