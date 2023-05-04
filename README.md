@@ -13,7 +13,7 @@ My inspiration for the game was otherwise useless knowledge of my favorite shows
 Here is a working demo hosted by Github pages
 *https://kaden-wallin.github.io/milestone-project-1/*
 
-## Technologies
+#### Technologies
 I used Github and VSCode to build my game. In the *sass_styling* branch, I used Sass as well.
 
 ## Technical Info
